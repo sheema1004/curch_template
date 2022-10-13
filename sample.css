@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(145, 134, 74);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+header .title {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.accordion-button {
+    font-size: 25px;
+    background-color: rgb(57, 54, 54);
+    /* border: 1px solid rgb(232, 230, 230); */
+    color: gold;
+}
+
+/* Title links of page */
+.first_item_title_name {
+    margin-left: 45% !important;
+}
+
+.second_item_title_name {
+    margin-left: 43% !important;
+}
+
+.third_item_title_name {
+    margin-left: 46% !important;
+}
+
+.four_item_title_name {
+    margin-left: 41% !important;
+}
+
+/* accordion-button */
+.accordion-button:not(.collapsed) {
+    background-color: rgb(57, 54, 54);
+    color: gold;
+}
+
+.accordion-button::after {
+    filter: brightness(0%) invert(100%);
+    margin-right: 0px;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: rgb(57, 54, 54);
+    color: white;
+}
+
+.accordion-body a {
+    color: rgb(246, 216, 47);
+    transition: 0.5s all ease;
+}
+
+.accordion-body a:hover {
+    color: red;
+}
+
+/* Tooltip */
+.tool_tip {
+    background-color: aqua;
+}
+
+.tooltip-inner {
+    max-width: 700px !important;
+}
+
+/* we also believe */
+.we_also_believe {
+    margin: 70px 0px 200px 0px;
+}
+
+.we_also_believe h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.we_also_believe h2 a:hover {
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.we_also_believe p {
+    padding: 20px 0px;
+}
+
+.we_also_believe p a {
+    color: rgb(183, 182, 182);
+    font-size: 17px;
+}
+
+.we_also_believe p a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+/* Responsive */
+/* xs devices */
+@media(max-width:576px) {
+
+    /* Title links of page */
+    .first_item_title_name,
+    .second_item_title_name,
+    .third_item_title_name,
+    .four_item_title_name {
+        margin-left: 0% !important;
+    }
+
+}

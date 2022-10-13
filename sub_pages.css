@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+h1 {
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+
+.god_page_details p, 
+.scripture_page_details p,
+.trinity_page_details p, 
+.Salvation_page_details p, 
+.Man_page_details p ,
+.church_page_details p,
+.christ_page_details p{
+    text-align: left;
+    padding: 5px 30px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(111, 108, 108);
+}
+
+h3 {
+    margin: 20px;
+}
+
+
+.home_logo {
+    border: 1px solid lightgray;
+    padding: 3px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px lightgray;
+    position: fixed;
+    top: 20px;
+    left: 50px;
+}
+
+.home_logo img {
+    width: 30px;
+    height: 30px;
+}
+
+/* GOD_PAGE css */
+.god_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 70%;
+    height: auto;
+}
+
+.god_page_details img {
+    height: 300px;
+    width: 450px;
+}
+
+
+/* Responsive for GOD_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .god_page_details {
+        border: none;
+        width: 400px;
+    }
+
+    .god_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .god_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .god_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .god_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .god_page_details img {
+        width: 400px;
+    }
+}
+
+/* SCRIPTURE PAGE CSS */
+.scripture_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+.scripture_page_details img {
+    height: 300px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+/* Responsive for SCRIPTURE_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .scripture_page_details {
+        width: 400px;
+        border: none;
+    }
+
+    .scripture_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .scripture_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .scripture_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .scripture_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .scripture_page_details img {
+        width: 400px;
+    }
+}
+
+/* Trinity_page css  */
+.trinity_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+.trinity_page_details img {
+    height: 300px;
+    width: 450px;
+}
+
+/* Responsive for TRINITY_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .trinity_page_details {
+        width: 400px;
+        border: none;
+    }
+
+    .trinity_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .trinity_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .trinity_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .trinity_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .trinity_page_details img {
+        width: 400px;
+    }
+}
+
+/* Salvation_page css  */
+.Salvation_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+.Salvation_page_details img {
+    height: 300px;
+    width: 450px;
+}
+
+/* Responsive for SALVATION_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .Salvation_page_details {
+        width: 400px;
+        border: none;
+    }
+
+    .Salvation_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .Salvation_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .Salvation_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .Salvation_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .Salvation_page_details img {
+        width: 400px;
+    }
+}
+
+/* MAN PAGE CSS */
+.Man_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+.Man_page_details img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+/* Responsive for MAN_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .Man_page_details {
+        width: 400px;
+        border: none;
+    }
+
+    .Man_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .Man_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .Man_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .Man_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .Man_page_details img {
+        width: 400px;
+    }
+}
+
+/* CHURCH_PAGE css */
+.church_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+.church_page_details img {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+/* Responsive for CHURCH_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .church_page_details {
+        width: 400px;
+        border: none;
+    }
+
+    .church_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .church_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .church_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .church_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .church_page_details img {
+        width: 400px;
+    }
+}
+
+/* .christ_page CSS */
+.christ_page_details {
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+.christ_page_details img {
+    height: 300px;
+    width: 400px;
+}
+
+/* Responsive for CHRIST_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .christ_page_details {
+        width: 400px;
+        border: none;
+    }
+
+    .christ_page_details img {
+        width: 300px;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    .christ_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .christ_page_details img {
+        width: 300px;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    .christ_page_details {
+        width: auto;
+        border: none;
+    }
+
+    .christ_page_details img {
+        width: 400px;
+    }
+}
+
+/* we_also_believe_page CSS */
+.we_also_believe_page_details {
+    margin: 30px 0px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    height: auto;
+}
+
+h1 {
+    margin: 30px 0px;
+    text-transform: uppercase;
+    color: red;
+}
+
+p {
+    padding: 20px 50px;
+    line-height: 25px;
+    font-weight: 600;
+    color: rgb(111, 108, 108);
+}
+
+h3 {
+    color: black;
+    font-size: bold;
+}
+
+/* Responsive for we_also_believe_PAGE*/
+/* XS DEVICES */
+@media (max-width: 576.98px) {
+    body {
+        height: 100%;
+    }
+
+    .we_also_believe_page_details {
+        width: 400px;
+        border: none;
+    }
+}
+
+/* SM DEVICES */
+@media (min-width: 577px) and (max-width:767.98px) {
+    body {
+        height: 100%;
+    }
+
+    .we_also_believe_page_details {
+        width: auto;
+        border: none;
+    }
+}
+
+/* MD DEVICES */
+@media (min-width: 768px) and (max-width:991.98px) {
+    body {
+        height: 100%;
+    }
+
+    .we_also_believe_page_details {
+        width: auto;
+        border: none;
+    }
+}
+
+/* LG DEVICES */
+@media (min-width: 992px) and (max-width:1199.98px) {
+    body {
+        height: 100%;
+    }
+
+    .we_also_believe_page_details {
+        width: auto;
+        border: none;
+    }
+}
+
+/* XL DEVICES */
+@media (min-width: 1200px) and (max-width:1399.98px) {
+    body {
+        height: 100%;
+    }
+}
